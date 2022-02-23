@@ -1,0 +1,25 @@
+@import "./variables";
+.footer {
+  background-image: $gradiente;
+  text-align: center;
+  color: $blanco;
+  &__div {
+    margin: 10px;
+    img {
+      width: 25px;
+      filter: invert(100%);
+    }
+  }
+}
+.tituloFooter {
+  font-size: $titulofooter;
+  color: white;
+}
+.pie {
+  font-size: 0.75rem;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  color: white;
+  background-color: rgb(44, 41, 41);
+}

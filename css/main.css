@@ -1,0 +1,266 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+/*COLORES*/
+/*TRANSFORMACIONES*/
+/*TAMAÑO DE FUENTE*/
+/*INDEX*/
+.video {
+  margin-top: 70px;
+}
+
+.main {
+  margin: 50px 140px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main__principal {
+  margin: 20px 100px;
+  color: #001219;
+  text-align: center;
+  line-height: 2;
+  text-decoration: none;
+}
+
+.boton {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #023047;
+  padding: 10px;
+  border: 3px solid #fb8500;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 1.025rem;
+  font-style: italic;
+  text-decoration: none;
+}
+
+.boton:hover {
+  background-color: #fb8500;
+  color: white;
+}
+
+.divBoton {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.destacados {
+  background-color: #94d2bd;
+  padding: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.destacados__box {
+  padding: 10px;
+  text-align: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.destacados img {
+  width: 20%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+}
+
+.cursos {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.cursos__caja {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 100px;
+}
+
+.reviews {
+  margin-top: 60px;
+  margin-bottom: 30px;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.reviews img {
+  width: 40%;
+}
+
+/*CERTIFICAR*/
+.certificar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+
+.certificar__texto {
+  color: #001219;
+  padding: 5px;
+  margin: 40px;
+}
+
+/*NOSOTROS*/
+.imageIndex {
+  margin-top: 70px;
+}
+
+.nosotros {
+  margin: 50px 140px;
+  color: #013274;
+  font-size: 0.875rem;
+  text-align: center;
+  line-height: 2;
+}
+
+.nosotros marquee {
+  font-weight: 700;
+  font-style: italic;
+  border-bottom: solid 5px #fb8500;
+}
+
+.nosotros iframe {
+  margin: 0%;
+}
+
+.lista {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 50px 140px;
+  color: #001219;
+}
+
+.lista__items {
+  padding: 10px;
+  list-style-image: url(/multimedia/images/snorkel.png);
+}
+
+/*OPEN*/
+.open {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #94d2bd;
+}
+
+/*ADVANCED*/
+.advanced {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #e9d8a6;
+}
+
+/*CONTACTO*/
+.contacto {
+  background-image: url(/multimedia/images/tiburon.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 100px;
+  color: white;
+}
+
+.contacto__formulario {
+  padding: 80px;
+  background-color: rgba(255, 255, 255, 0.274);
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #013274;
+  padding: 20px 20px;
+  font-size: 1.125rem;
+  text-decoration: none;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.025rem;
+  color: #013274;
+  padding: 10px 10px;
+  text-decoration: none;
+  text-align: center;
+}
+
+/*COLORES*/
+/*TRANSFORMACIONES*/
+/*TAMAÑO DE FUENTE*/
+.footer {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#001219), to(#005f73));
+  background-image: linear-gradient(to bottom, #001219, #005f73);
+  text-align: center;
+  color: white;
+}
+
+.footer__div {
+  margin: 10px;
+}
+
+.footer__div img {
+  width: 25px;
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
+}
+
+.tituloFooter {
+  font-size: 1rem;
+  color: white;
+}
+
+.pie {
+  font-size: 0.75rem;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  color: white;
+  background-color: #2c2929;
+}
+/*# sourceMappingURL=main.css.map */

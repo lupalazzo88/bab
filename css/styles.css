@@ -1,0 +1,90 @@
+/*MAIN*/
+.imageIndex {
+  margin-top: 50px;
+  display: flex;
+}
+main section div iframe {
+  display: block;
+  margin: auto;
+}
+main section h2 {
+  color: #013274;
+  padding: 20px 20px;
+  font-size: 1.125rem;
+  text-decoration: none;
+  text-align: center;
+}
+main section div h3 {
+  font-size: 1.025rem;
+  color: #013274;
+  padding: 20px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+/*OPEN WATER*/
+.grillaOpen {
+  background-color: #d1f5ff;
+  color: #013274;
+  font-size: 0.875rem;
+  padding-top: 80px;
+  text-decoration: none;
+  text-align: center;
+  list-style-position: inside;
+  line-height: 2;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.5fr 0.5fr 2fr;
+  gap: 5px 3px;
+  grid-template-areas:
+    "titulo titulo"
+    "subtitulo subtitulo"
+    "texto imagen"
+    "texto imagen";
+}
+.a {
+  font-size: 2rem;
+  grid-area: titulo;
+}
+.b {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+  grid-area: subtitulo;
+}
+.c {
+  font-weight: 700;
+  font-size: 1.25rem;
+  margin-left: 50px;
+  text-align: start;
+  grid-area: texto;
+}
+.d {
+  grid-area: imagen;
+}
+/*CONTACTO*/
+main div form {
+  margin-top: 100px;
+  padding: 20px 200px;
+  text-decoration: none;
+  text-align: center;
+}
+/*MEDIA QUERIES*/
+/*Mobile*/
+@media screen and (max-width: 375px) {
+  .destacados {
+    background-color: #cbebf3;
+    flex-wrap: wrap;
+  }
+}
+@keyframes tituloAgrandar {
+}
+
+/*Tablet*/
+@media screen and (min-width: 768px) {
+  .destacados {
+    background-color: #e2f7ce;
+  }
+}
+/*Desktop*/
+@media only screen and (min-width: 1024px) {
+}
