@@ -1,5 +1,8 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700;800&display=swap");
+/*COLORES*/
+/*TRANSFORMACIONES*/
+/*TAMAÑO DE FUENTE*/
 * {
   margin: 0;
   padding: 0;
@@ -29,14 +32,35 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  font-size: Stextomain;
 }
 
 .main__principal {
-  margin: 20px 100px;
+  margin: 1.25rem 6.25rem;
   color: #001219;
   text-align: center;
   line-height: 2;
   text-decoration: none;
+}
+
+@media screen and (max-width: 375px) {
+  .main__principal {
+    margin: 1.25rem 0.25rem;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .main__principal {
+    margin: 1.25rem 0.025rem;
+    font-size: 1.025rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .main {
+    margin: 20px 50px;
+  }
 }
 
 .boton {
@@ -70,6 +94,25 @@
   display: flex;
 }
 
+@media screen and (max-width: 375px) {
+  .destacados {
+    font-size: 1rem;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: #ee9b00;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .destacados {
+    font-size: 1rem;
+    background-color: #e9d8a6;
+  }
+}
+
 .destacados__box {
   padding: 10px;
   text-align: center;
@@ -94,21 +137,34 @@
 }
 
 .cursos {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   margin-top: 50px;
   text-align: center;
-}
-
-.cursos__caja {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-left: 100px;
+}
+
+@media screen and (max-width: 375px) {
+  .cursos {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .cursos {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 
 .reviews {
@@ -126,10 +182,12 @@
 
 /*CERTIFICAR*/
 .certificar {
+  font-size: 1.25rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   text-align: center;
+  color: #001219;
 }
 
 .certificar__texto {
@@ -149,6 +207,18 @@
   font-size: 0.875rem;
   text-align: center;
   line-height: 2;
+}
+
+@media screen and (max-width: 375px) {
+  .nosotros {
+    margin: 1.25rem 3rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .nosotros {
+    margin: 1.25rem 4rem;
+  }
 }
 
 .nosotros marquee {
@@ -174,6 +244,12 @@
   list-style-image: url(/multimedia/images/snorkel.png);
 }
 
+@media screen and (max-width: 375px) {
+  .lista {
+    margin: 0.5rem;
+  }
+}
+
 /*OPEN*/
 .open {
   margin-top: 100px;
@@ -181,7 +257,11 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #94d2bd;
+  background-color: #0a949623;
+}
+
+@media screen and (max-width: 375px) {
+  text-align: center;
 }
 
 /*ADVANCED*/
@@ -211,7 +291,12 @@
 h1 {
   text-align: center;
   font-size: 2.5rem;
-  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 375px) {
+  h1 {
+    font-size: 1.5rem;
+  }
 }
 
 h2 {
