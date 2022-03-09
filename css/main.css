@@ -241,7 +241,6 @@
 
 .lista__items {
   padding: 10px;
-  list-style-image: url(/multimedia/images/snorkel.png);
 }
 
 @media screen and (max-width: 375px) {
@@ -276,11 +275,9 @@
 
 /*CONTACTO*/
 .contacto {
-  background-image: url(/multimedia/images/tiburon.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #00607344;
   margin-top: 100px;
-  color: white;
+  color: #001219;
 }
 
 .contacto__formulario {
