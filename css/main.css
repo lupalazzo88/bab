@@ -17,13 +17,20 @@
 /*INDEX*/
 .video {
   margin-top: 70px;
+  background-size: cover;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .video {
+    margin-right: 0px;
+  }
 }
 
 .main {
-  margin: 50px 140px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin: 0.938rem;
   text-align: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -36,36 +43,27 @@
 }
 
 .main__principal {
-  margin: 1.25rem 6.25rem;
   color: #001219;
   text-align: center;
   line-height: 2;
   text-decoration: none;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .main__principal {
-    margin: 1.25rem 0.25rem;
     font-size: 1rem;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .main__principal {
-    margin: 1.25rem 0.025rem;
     font-size: 1.025rem;
-  }
-}
-
-@media screen and (max-width: 375px) {
-  .main {
-    margin: 20px 50px;
   }
 }
 
 .boton {
   margin-top: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 60px;
   color: #023047;
   padding: 10px;
   border: 3px solid #fb8500;
@@ -94,7 +92,7 @@
   display: flex;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .destacados {
     font-size: 1rem;
     -ms-flex-wrap: wrap;
@@ -145,22 +143,14 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .cursos {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-  }
-}
-
-@media screen and (max-width: 375px) {
-  .cursos {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -209,7 +199,7 @@
   line-height: 2;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .nosotros {
     margin: 1.25rem 3rem;
   }
@@ -243,7 +233,7 @@
   padding: 10px;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .lista {
     margin: 0.5rem;
   }
@@ -259,7 +249,7 @@
   background-color: #0a949623;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   text-align: center;
 }
 
@@ -290,7 +280,7 @@ h1 {
   font-size: 2.5rem;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   h1 {
     font-size: 1.5rem;
   }

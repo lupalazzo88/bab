@@ -4,36 +4,34 @@
 /*INDEX*/
 .video {
   margin-top: 70px;
+  background-size: cover;
+  @include movil {
+    margin-right: 0px;
+  }
 }
 .main {
-  margin: 50px 140px;
   display: flex;
+  margin: 0.938rem;
   text-align: center;
   flex-direction: column;
   align-items: center;
   font-size: Stextomain;
   &__principal {
-    margin: 1.25rem 6.25rem;
     color: $azuloscuro;
     text-align: center;
     line-height: 2;
     text-decoration: none;
     @include movil {
-      margin: 1.25rem 0.25rem;
       font-size: 1rem;
     }
     @include tablet {
-      margin: 1.25rem 0.025rem;
       font-size: 1.025rem;
     }
-  }
-  @include movil {
-    margin: 20px 50px;
   }
 }
 .boton {
   margin-top: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 60px;
   color: #023047;
   padding: 10px;
   border: 3px solid #fb8500;
@@ -83,11 +81,8 @@
   margin-top: 50px;
   text-align: center;
   align-items: center;
-  justify-content: center;
   @include movil {
     flex-direction: column;
-  }
-  @include movil {
     align-items: center;
   }
 }
